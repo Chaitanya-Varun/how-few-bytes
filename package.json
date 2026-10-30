@@ -1,0 +1,19 @@
+{
+  "name": "how-few-bytes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A party game for the Semantic Camera: name a photo from as few bytes as possible.",
+  "type": "module",
+  "scripts": {
+    "start": "node server/local.js",
+    "play": "scripts/play.sh",
+    "test": "node test/sim.mjs && node test/modes.mjs && node test/netlify-fn.mjs",
+    "package": "scripts/package-netlify.sh"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
