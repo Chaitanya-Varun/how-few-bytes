@@ -24,6 +24,6 @@ Snap a photo, friends race to name it as it develops from 2 bytes to 512. Guess 
 
 ## Notes for the form
 
-- **Your project (link):** the Netlify URL once `netlify-ready-game.zip` is deployed (always on, stand-in decoder). The laptop link with FlexTok/FlexAR only works while `scripts/play.sh` runs.
+- **Your project (link):** https://how-few-bytes.netlify.app (always on, stand-in decoder; code at https://github.com/Chaitanya-Varun/how-few-bytes). The laptop link with FlexTok/FlexAR only works while `scripts/play.sh` runs.
 - **Preview image:** `cover.png` (3:2, 1800×1200).
 - Everything above is true of the project as built; the "found by playing" bug and the FP8 result are from this build's testing.

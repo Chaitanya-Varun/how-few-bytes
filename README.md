@@ -74,12 +74,13 @@ Category words ("animal", "food") are capped at Close!. Thresholds were tuned on
 
 ## Netlify fallback
 
+Live at <https://how-few-bytes.netlify.app>. The folder is linked to that Netlify project, so after a change:
+
 ```bash
-scripts/package-netlify.sh
+netlify deploy --prod
 ```
 
-This writes `netlify-ready-game.zip` (static page, function, shared rules, lockfile). Drop it on
-<https://app.netlify.com/drop>, wait for the green status, open the URL to test, then make the site public.
+(Or `scripts/package-netlify.sh` writes `netlify-ready-game.zip` for <https://app.netlify.com/drop>.)
 
 ## Tests
 
